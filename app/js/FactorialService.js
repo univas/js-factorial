@@ -9,6 +9,7 @@ var FactorialService = (function () {
     }
     
     function calculate(number) {
+        if(!isNumberValid(number)) return null;
         while(number >= results.length) {
             results.push(results.length*calculate(results.length-1));
         }

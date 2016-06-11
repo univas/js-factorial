@@ -12,6 +12,12 @@ describe('FactorialService.js', function() {
     it('should return 1 (one) if the given number is 0 (zero)', function() {
         expect(FactorialService.calculate(0)).toBe(1);
     });
+    
+    it('should null if an invalid param was given', function() {
+        expect(FactorialService.calculate(-1)).toBe(null);
+        expect(FactorialService.calculate("1")).toBe(null);
+        expect(FactorialService.calculate("")).toBe(null);
+    });
         
 });
     

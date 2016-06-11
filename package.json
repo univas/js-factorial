@@ -1,0 +1,22 @@
+{
+  "name": "js-factorial",
+  "version": "1.0.0",
+  "description": "An HTML app to calculate factorial",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/univas/js-factorial.git"
+  },
+  "author": "Univas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/univas/js-factorial/issues"
+  },
+  "homepage": "https://github.com/univas/js-factorial#readme"
+}

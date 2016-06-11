@@ -17,6 +17,7 @@ describe('FactorialService.js', function() {
         expect(FactorialService.calculate(-1)).toBe(null);
         expect(FactorialService.calculate("1")).toBe(null);
         expect(FactorialService.calculate("")).toBe(null);
+        expect(FactorialService.calculate()).toBe(null);
     });
         
 });

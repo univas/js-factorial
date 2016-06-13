@@ -1,19 +1,19 @@
 var FactorialService = (function () {
 
-    var results = [1, 1];
+    var _results = [1, 1];
 
-    function isNumberValid(number) {
+    function _isNumberValid(number) {
         return (number !== undefined)
             && (number > -1)
             && (typeof(number) !== 'string');
     }
     
     function calculate(number) {
-        if(!isNumberValid(number)) return null;
-        while(number >= results.length) {
-            results.push(results.length*calculate(results.length-1));
+        if(!_isNumberValid(number)) return null;
+        while(number >= _results.length) {
+            _results.push(_results.length * calculate(_results.length - 1));
         }
-        return results[number];
+        return _results[number];
     }
 
     //public api

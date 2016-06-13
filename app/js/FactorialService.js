@@ -1,5 +1,7 @@
 var FactorialService = (function () {
 
+    var results = [1, 1];
+
     function isNumberValid(number) {
         return (number !== undefined)
             && (number > -1)
@@ -8,13 +10,10 @@ var FactorialService = (function () {
     
     function calculate(number) {
         if(!isNumberValid(number)) return null;
-        var result = 1;
-        if(number === 0 || number === 1) return result;
-
-        for (var i = 2; i <= number; i++) {
-            result = result * i;
+        while(number >= results.length) {
+            results.push(results.length*calculate(results.length-1));
         }
-        return result;
+        return results[number];
     }
 
     //public api

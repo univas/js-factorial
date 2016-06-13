@@ -10,7 +10,7 @@ To run the automated tests please follow the commands below:
 
 ## Crossbrowser Test
 
-To run crossbrowser test execute ```npm run test-crossbrowser```.
+To run crossbrowser test (Chrome, Firefox and IE) execute ```npm run test-crossbrowser```.
 
 ## Test coverage
 

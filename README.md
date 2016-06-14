@@ -1,7 +1,7 @@
 # Factorial Calculator
 An HTML5 app to calculate the factorial from a given number. 
 
-## Instrunctions
+## Instructions
 
 To run the automated tests please follow the commands below:
 

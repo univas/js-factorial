@@ -1,7 +1,7 @@
 {
   "name": "js-factorial",
   "version": "1.0.0",
-  "description": "An HTML app to calculate factorial",
+  "description": "An HTML5 app to calculate factorial from a given number",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -27,6 +27,8 @@
     "karma-chrome-launcher": "^1.0.1",
     "karma-coverage": "^1.0.0",
     "karma-firefox-launcher": "^1.0.0",
+    "karma-fixture": "^0.2.6",
+    "karma-html2js-preprocessor": "^1.0.0",
     "karma-ie-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.0",

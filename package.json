@@ -7,9 +7,11 @@
     "test": "test"
   },
   "scripts": {
+	  "preinstall": "npm i -g http-server && npm i -g karma-cli",
     "test": "karma start --single-run --browsers PhantomJS",
     "tdd": "karma start --browsers FirefoxDeveloper --reporters progress",
-    "test-crossbrowser": "karma start --single-run --browsers Chrome,Firefox,IE"
+    "test-crossbrowser": "karma start --single-run --browsers Chrome,Firefox,IE",
+	  "start": "http-server app/ -p 8081 -o"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-# Factorial Calculator
+# Factorial Calculator [![Build Status](https://travis-ci.org/univas/js-factorial.svg?branch=master)](https://travis-ci.org/univas/js-factorial)
 An HTML5 app to calculate the factorial from a given number. 
 
 ## Instructions
@@ -15,6 +15,10 @@ To run crossbrowser test (Chrome, Firefox and IE) execute ```npm run test-crossb
 ## Test coverage
 
 To check the test code coverage check the folder **coverage** after ran the command ```npm test```
+
+## To run
+
+- ```npm start```
 
 ## Feedback
 

@@ -1,4 +1,4 @@
-# Factorial Calculator [![Build Status](https://travis-ci.org/univas/js-factorial.svg?branch=master)](https://travis-ci.org/univas/js-factorial)
+# Factorial Calculator [![Build Status](https://travis-ci.org/univas/js-factorial.svg?branch=master)](https://travis-ci.org/univas/js-factorial) [![Coverage Status](https://coveralls.io/repos/github/univas/js-factorial/badge.svg?branch=master)](https://coveralls.io/github/univas/js-factorial?branch=master)
 An HTML5 app to calculate the factorial from a given number. 
 
 ## Instructions

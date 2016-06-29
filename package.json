@@ -7,11 +7,12 @@
     "test": "test"
   },
   "scripts": {
-	  "preinstall": "npm i -g http-server && npm i -g karma-cli",
+    "coveralls": "cat ./coverage/**/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "preinstall": "npm i -g http-server && npm i -g karma-cli",
     "test": "karma start --single-run --browsers PhantomJS",
     "tdd": "karma start --browsers FirefoxDeveloper --reporters progress",
     "test-crossbrowser": "karma start --single-run --browsers Chrome,Firefox,IE",
-	  "start": "http-server app/ -p 8081 -o"
+    "start": "http-server app/ -p 8081 -o"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/univas/js-factorial#readme",
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",
